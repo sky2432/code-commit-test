@@ -1,9 +1,5 @@
 name: Mirroring
 
-on:
-  push:
-    branches: develop
-
 jobs:
   to_codecommit:
     runs-on: ubuntu-latest
